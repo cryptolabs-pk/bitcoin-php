@@ -27,6 +27,16 @@ abstract class AbstractCryptoNode extends Node
     protected const NETWORK_ID = null;
 
     /**
+     * @return AbstractCryptoNode
+     * @throws NodeException
+     * @throws \CryptoLabs\Bitcoin\Exceptions\NetworkConfigException
+     */
+    final public static function Node(): self
+    {
+        return new static();
+    }
+
+    /**
      * AbstractCryptoNode constructor.
      * @throws NodeException
      * @throws \CryptoLabs\Bitcoin\Exceptions\NetworkConfigException
