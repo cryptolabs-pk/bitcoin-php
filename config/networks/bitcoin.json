@@ -1,0 +1,18 @@
+{
+  "name": "Bitcoin",
+  "scale": 8,
+  "base58": {
+    "prefix": {
+      "p2pkh": "0x00",
+      "p2sh": "0x05",
+      "wif": "0x80",
+      "bip32": {
+        "private": "0x0488ADE4",
+        "public": "0x0488B21E"
+      }
+    }
+  },
+  "bip44": {
+    "coinIndex": 0
+  }
+}
