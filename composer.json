@@ -1,0 +1,32 @@
+{
+  "name": "cryptolabs-pk/bitcoin-php",
+  "description": "Bitcoin lib for PHP Apps",
+  "type": "library",
+  "homepage": "https://github.com/cryptolabs-pk/bitcoin-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Furqan A. Siddiqui",
+      "email": "hello@furqansiddiqui.com",
+      "homepage": "https://www.furqansiddiqui.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "ext-bcmath": "*",
+    "cryptolabs-pk/bcmath-php": "*",
+    "cryptolabs-pk/data-types-php": "*",
+    "furqansiddiqui/bip39-mnemonic-php": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CryptoLabs\\Bitcoin\\": [
+        "src"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
