@@ -18,7 +18,7 @@ namespace CryptoLabs\Bitcoin\Exceptions;
  * Class NetworkConfigException
  * @package CryptoLabs\Bitcoin\Exceptions
  */
-class NetworkConfigException extends BitcoinException
+class NetworkConfigException extends NodeException
 {
     public const BAD_NETWORK_ID = 2;
     public const CONFIG_FILE_ERROR = 4;

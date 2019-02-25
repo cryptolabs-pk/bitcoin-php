@@ -12,12 +12,14 @@
 
 declare(strict_types=1);
 
-namespace CryptoLabs\Bitcoin\Exceptions;
+namespace CryptoLabs\Bitcoin\Exceptions\Wallets;
+
+use CryptoLabs\Bitcoin\Exceptions\NodeException;
 
 /**
- * Class UnexpectedValueException
- * @package CryptoLabs\Bitcoin\Exceptions
+ * Class WalletsException
+ * @package CryptoLabs\Bitcoin\Exceptions\Wallets
  */
-class UnexpectedValueException extends NodeException
+class WalletsException extends NodeException
 {
 }
